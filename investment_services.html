@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aureum Capital | Investment Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=DM+Sans:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="investment_services.css">
+</head>
+
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">AUREUM<span> Capital</span></a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span style="color:var(--gold);font-size:1.4rem;"><i class="fas fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+                <a href="#contact" class="btn-nav nav-link">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-line"></div>
+        <div class="container position-relative z-1">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <div class="hero-eyebrow">Trusted Since 2005 &nbsp;·&nbsp; 18+ Years Excellence</div>
+                    <h1 class="hero-title">
+                        Grow Your
+                        <em class="accent">Wealth</em>
+                        With Confidence
+                    </h1>
+                    <p class="hero-desc">
+                        Strategic investment management, portfolio advisory, and wealth planning services crafted for
+                        individuals, families, and institutions seeking exceptional returns.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#services" class="btn-primary-gold"><span>Explore Services</span></a>
+                        <a href="#portfolio" class="btn-outline-gold">View Portfolio</a>
+                    </div>
+                    <div class="hero-stats mt-5 d-flex flex-wrap">
+                        <div class="stat-item">
+                            <div class="stat-number">$4.2B</div>
+                            <div class="stat-label">Assets Managed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">2,800+</div>
+                            <div class="stat-label">Clients Worldwide</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">22.4%</div>
+                            <div class="stat-label">Avg. Annual Return</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-visual">
+                        <div class="hero-card-main">
+                            <div class="d-flex justify-content-between align-items-center mb-4">
+                                <div>
+                                    <div class="section-tag">Portfolio Performance</div>
+                                    <div
+                                        style="font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:700;color:var(--gold);">
+                                        +32.7%</div>
+                                    <div style="font-size:0.8rem;color:var(--muted);">YTD Return 2024</div>
+                                </div>
+                                <i class="fas fa-chart-line" style="font-size:2.5rem;color:rgba(201,168,76,0.2);"></i>
+                            </div>
+                            <div class="chart-bars">
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                            </div>
+                            <div class="d-flex justify-content-between"
+                                style="font-size:0.7rem;color:var(--muted);margin-bottom:24px;">
+                                <span>Jun</span><span>Jul</span><span>Aug</span><span>Sep</span><span>Oct</span><span>Nov</span><span>Dec</span>
+                            </div>
+                            <div class="ticker-row">
+                                <span class="ticker-symbol">AAPL</span>
+                                <span>$189.43</span>
+                                <span class="ticker-up">+2.4%</span>
+                            </div>
+                            <div class="ticker-row">
+                                <span class="ticker-symbol">NVDA</span>
+                                <span>$452.12</span>
+                                <span class="ticker-up">+4.8%</span>
+                            </div>
+                            <div class="ticker-row">
+                                <span class="ticker-symbol">MSFT</span>
+                                <span>$374.60</span>
+                                <span class="ticker-up">+1.2%</span>
+                            </div>
+                            <div class="ticker-row">
+                                <span class="ticker-symbol">BRK.B</span>
+                                <span>$358.90</span>
+                                <span class="ticker-down">-0.3%</span>
+                            </div>
+                        </div>
+                        <div class="hero-card-float">
+                            <div class="float-icon"><i class="fas fa-shield-alt"></i></div>
+                            <div>
+                                <div style="font-size:0.95rem;font-weight:600;">Risk Protected</div>
+                                <div style="font-size:0.75rem;color:var(--muted);">SEC Regulated &amp; Insured</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5 fade-in">
+                    <div class="about-image-wrap">
+                        <div class="about-img-frame">
+                            <div class="about-icon-grid">
+                                <div class="about-icon-item"><i class="fas fa-university"></i>Institutional</div>
+                                <div class="about-icon-item"><i class="fas fa-globe-americas"></i>Global Reach</div>
+                                <div class="about-icon-item"><i class="fas fa-chart-pie"></i>Diversified</div>
+                                <div class="about-icon-item"><i class="fas fa-user-tie"></i>Personal Touch</div>
+                            </div>
+                            <div class="about-badge">
+                                <span class="num">18</span>
+                                <span class="txt">Years Exp.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 fade-in">
+                    <div class="section-tag">Who We Are</div>
+                    <h2 class="section-title">A Legacy Built on <em>Trust & Returns</em></h2>
+                    <div class="gold-divider"></div>
+                    <p class="section-desc mb-5">
+                        Aureum Capital is a premier investment services firm serving high-net-worth individuals, family
+                        offices, and institutional investors. Our disciplined, research-driven approach has delivered
+                        consistent outperformance across market cycles.
+                    </p>
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-search-dollar"></i></div>
+                        <div>
+                            <div class="feature-title">Research-Driven Strategy</div>
+                            <p class="feature-text">Our team of 40+ analysts provides deep fundamental research across
+                                equities, fixed income, alternatives, and real assets.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-balance-scale"></i></div>
+                        <div>
+                            <div class="feature-title">Risk-Adjusted Returns</div>
+                            <p class="feature-text">We prioritize risk management through dynamic hedging,
+                                diversification, and robust stress-testing frameworks.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-handshake"></i></div>
+                        <div>
+                            <div class="feature-title">Client-First Philosophy</div>
+                            <p class="feature-text">Every strategy is bespoke. We align our interests with yours through
+                                performance-based fees and transparent reporting.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SERVICES ========== -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <div class="text-center mb-5 fade-in">
+                <div class="section-tag justify-content-center">What We Offer</div>
+                <h2 class="section-title">Our Investment <em>Services</em></h2>
+                <p class="section-desc mx-auto" style="max-width:580px;">Comprehensive financial services designed to
+                    preserve, grow, and transfer wealth across generations.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 fade-in">
+                    <div class="service-card">
+                        <div class="service-number">01</div>
+                        <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+                        <h4 class="service-title">Equity Portfolio Management</h4>
+                        <p class="service-text">Active and passive equity strategies across large-cap, mid-cap, and
+                            emerging markets, tailored to your risk appetite and return goals.</p>
+                        <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 fade-in">
+                    <div class="service-card">
+                        <div class="service-number">02</div>
+                        <div class="service-icon"><i class="fas fa-building"></i></div>
+                        <h4 class="service-title">Real Estate Investment</h4>
+                        <p class="service-text">Strategic access to commercial, residential, and industrial real estate
+                            opportunities with superior risk-adjusted returns.</p>
+                        <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 fade-in">
+                    <div class="service-card">
+                        <div class="service-number">03</div>
+                        <div class="service-icon"><i class="fas fa-shield-alt"></i></div>
+                        <h4 class="service-title">Fixed Income & Bonds</h4>
+                        <p class="service-text">Conservative income strategies through government bonds, corporate debt,
+                            and structured credit instruments for steady yield generation.</p>
+                        <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 fade-in">
+                    <div class="service-card">
+                        <div class="service-number">04</div>
+                        <div class="service-icon"><i class="fas fa-coins"></i></div>
+                        <h4 class="service-title">Alternative Investments</h4>
+                        <p class="service-text">Access to private equity, hedge funds, commodities, and digital assets
+                            through our curated alternative investment platform.</p>
+                        <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 fade-in">
+                    <div class="service-card">
+                        <div class="service-number">05</div>
+                        <div class="service-icon"><i class="fas fa-user-shield"></i></div>
+                        <h4 class="service-title">Wealth Planning</h4>
+                        <p class="service-text">Holistic financial planning encompassing estate planning, tax
+                            optimization, retirement strategies, and legacy creation.</p>
+                        <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 fade-in">
+                    <div class="service-card">
+                        <div class="service-number">06</div>
+                        <div class="service-icon"><i class="fas fa-globe"></i></div>
+                        <h4 class="service-title">Global Market Access</h4>
+                        <p class="service-text">International portfolio diversification across Asian, European, and
+                            emerging market equities through our global research network.</p>
+                        <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== METRICS ========== -->
+    <div class="metrics-strip">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-6 col-lg-3">
+                    <div class="metric-item fade-in">
+                        <div class="metric-number">$4.2B+</div>
+                        <div class="metric-label">Assets Under Management</div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="metric-item fade-in">
+                        <div class="metric-number">2,800</div>
+                        <div class="metric-label">Satisfied Clients</div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="metric-item fade-in">
+                        <div class="metric-number">22.4%</div>
+                        <div class="metric-label">Average Annual Return</div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="metric-item fade-in">
+                        <div class="metric-number">18+</div>
+                        <div class="metric-label">Years of Excellence</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== PORTFOLIO ========== -->
+    <section class="portfolio-section" id="portfolio">
+        <div class="container">
+            <div class="text-center mb-5 fade-in">
+                <div class="section-tag justify-content-center">Our Track Record</div>
+                <h2 class="section-title">Investment <em>Portfolio</em></h2>
+                <p class="section-desc mx-auto" style="max-width:560px;">A selection of our most successful investment
+                    cases demonstrating our disciplined, research-driven approach.</p>
+            </div>
+            <div class="portfolio-filter justify-content-center d-flex fade-in">
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">Equities</button>
+                <button class="filter-btn">Real Estate</button>
+                <button class="filter-btn">Private Equity</button>
+                <button class="filter-btn">Bonds</button>
+            </div>
+            <div class="row fade-in">
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <div class="portfolio-img-inner"><i class="fas fa-microchip"></i></div>
+                            <div class="portfolio-overlay">
+                                <a href="#contact" class="btn-primary-gold"><span>View Case Study</span></a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <div class="portfolio-cat">Technology · Equity</div>
+                            <div class="portfolio-name">Silicon Valley Growth Fund</div>
+                            <div class="portfolio-return"><i class="fas fa-arrow-up me-1"></i>+48.3% Return (2023)</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <div class="portfolio-img-inner"><i class="fas fa-city"></i></div>
+                            <div class="portfolio-overlay">
+                                <a href="#contact" class="btn-primary-gold"><span>View Case Study</span></a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <div class="portfolio-cat">Real Estate · Commercial</div>
+                            <div class="portfolio-name">Metro Commercial Properties</div>
+                            <div class="portfolio-return"><i class="fas fa-arrow-up me-1"></i>+22.1% Return (2023)</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <div class="portfolio-img-inner"><i class="fas fa-leaf"></i></div>
+                            <div class="portfolio-overlay">
+                                <a href="#contact" class="btn-primary-gold"><span>View Case Study</span></a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <div class="portfolio-cat">ESG · Green Energy</div>
+                            <div class="portfolio-name">Sustainable Energy Portfolio</div>
+                            <div class="portfolio-return"><i class="fas fa-arrow-up me-1"></i>+31.6% Return (2023)</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <div class="portfolio-img-inner"><i class="fas fa-pills"></i></div>
+                            <div class="portfolio-overlay">
+                                <a href="#contact" class="btn-primary-gold"><span>View Case Study</span></a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <div class="portfolio-cat">Healthcare · Biotech</div>
+                            <div class="portfolio-name">BioInnovation Fund II</div>
+                            <div class="portfolio-return"><i class="fas fa-arrow-up me-1"></i>+56.2% Return (2022)</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <div class="portfolio-img-inner"><i class="fas fa-plane"></i></div>
+                            <div class="portfolio-overlay">
+                                <a href="#contact" class="btn-primary-gold"><span>View Case Study</span></a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <div class="portfolio-cat">Infrastructure · Private Equity</div>
+                            <div class="portfolio-name">Global Infrastructure Partners</div>
+                            <div class="portfolio-return"><i class="fas fa-arrow-up me-1"></i>+18.9% Return (2022)</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <div class="portfolio-img-inner"><i class="fas fa-university"></i></div>
+                            <div class="portfolio-overlay">
+                                <a href="#contact" class="btn-primary-gold"><span>View Case Study</span></a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <div class="portfolio-cat">Fixed Income · Bonds</div>
+                            <div class="portfolio-name">AAA Corporate Bond Ladder</div>
+                            <div class="portfolio-return"><i class="fas fa-arrow-up me-1"></i>+8.4% Return (2023)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TEAM ========== -->
+    <section class="team-section" id="team">
+        <div class="container">
+            <div class="text-center mb-5 fade-in">
+                <div class="section-tag justify-content-center">The Experts</div>
+                <h2 class="section-title">Meet Our <em>Leadership</em></h2>
+                <p class="section-desc mx-auto" style="max-width:540px;">Our senior team brings decades of combined
+                    experience from top investment banks and asset managers worldwide.</p>
+            </div>
+            <div class="row g-5 fade-in">
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-card">
+                        <div class="team-img-wrap">
+                            <div class="team-img-placeholder">JM</div>
+                        </div>
+                        <h5 class="team-name">Jonathan Mills</h5>
+                        <div class="team-role">CEO & Founder</div>
+                        <p class="team-bio">Former Goldman Sachs MD with 25+ years in global equity markets and private
+                            equity strategy.</p>
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-card">
+                        <div class="team-img-wrap">
+                            <div class="team-img-placeholder">SC</div>
+                        </div>
+                        <h5 class="team-name">Sarah Chen</h5>
+                        <div class="team-role">Chief Investment Officer</div>
+                        <p class="team-bio">PhD in Financial Economics, ex-BlackRock portfolio manager specializing in
+                            quantitative strategies.</p>
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-card">
+                        <div class="team-img-wrap">
+                            <div class="team-img-placeholder">RP</div>
+                        </div>
+                        <h5 class="team-name">Rajesh Patel</h5>
+                        <div class="team-role">Head of Risk Management</div>
+                        <p class="team-bio">CFA charterholder with 18 years building risk frameworks for institutional
+                            clients across 30+ countries.</p>
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-card">
+                        <div class="team-img-wrap">
+                            <div class="team-img-placeholder">EV</div>
+                        </div>
+                        <h5 class="team-name">Elena Vasquez</h5>
+                        <div class="team-role">Director of Wealth Planning</div>
+                        <p class="team-bio">Estate planning attorney and CFP® professional, specializing in
+                            multi-generational wealth transfer strategies.</p>
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS ========== -->
+    <section class="testimonials-section" id="testimonials">
+        <div class="container">
+            <div class="text-center mb-5 fade-in">
+                <div class="section-tag justify-content-center">Client Stories</div>
+                <h2 class="section-title">What Our <em>Clients Say</em></h2>
+            </div>
+            <div class="row g-4 fade-in">
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p class="testimonial-text">Aureum Capital transformed our family office strategy. In just three
+                            years, our portfolio has grown by 87% while maintaining conservative risk parameters.
+                            Exceptional team, exceptional results.</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">WH</div>
+                            <div>
+                                <div class="author-name">William Hartley</div>
+                                <div class="author-title">Family Office · $120M AUM</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p class="testimonial-text">The level of personalization and transparency is unlike any other
+                            firm I've worked with. Sarah and her team are always available, proactive, and genuinely
+                            invested in our success.</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">MK</div>
+                            <div>
+                                <div class="author-name">Meera Krishnan</div>
+                                <div class="author-title">Entrepreneur · Series C Founder</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="testimonial-text">Our pension fund has benefited enormously from Aureum's fixed income
+                            and alternatives expertise. Consistent performance, rigorous compliance, and a team that
+                            truly understands institutional needs.</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">TB</div>
+                            <div>
+                                <div class="author-name">Thomas Bergmann</div>
+                                <div class="author-title">Pension Fund CIO · Germany</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-5 fade-in">
+                    <div class="section-tag">Let's Connect</div>
+                    <h2 class="section-title">Start Your <em>Investment Journey</em></h2>
+                    <div class="gold-divider"></div>
+                    <p class="section-desc mb-5">Whether you're just beginning to invest or looking to optimize an
+                        existing portfolio, our advisors are ready to create a custom strategy for you.</p>
+                    <div class="contact-info-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <div class="contact-info-label">Our Office</div>
+                            <div class="contact-info-value">200 Park Avenue, 30th Floor<br>New York, NY 10166</div>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div>
+                            <div class="contact-info-label">Phone</div>
+                            <div class="contact-info-value">+1 (212) 555-0198</div>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <div class="contact-info-label">Email</div>
+                            <div class="contact-info-value">invest@aureumcapital.com</div>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-icon"><i class="fas fa-clock"></i></div>
+                        <div>
+                            <div class="contact-info-label">Office Hours</div>
+                            <div class="contact-info-value">Mon – Fri: 8:00 AM – 6:00 PM EST</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 fade-in">
+                    <div class="contact-form-wrap">
+                        <h4
+                            style="font-family:'Playfair Display',serif;font-size:1.5rem;font-weight:600;margin-bottom:32px;">
+                            Request a Consultation</h4>
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="form-group-custom">
+                                    <label class="form-label-custom">First Name</label>
+                                    <input type="text" class="form-control-custom" placeholder="Jonathan" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group-custom">
+                                    <label class="form-label-custom">Last Name</label>
+                                    <input type="text" class="form-control-custom" placeholder="Mills" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group-custom">
+                                    <label class="form-label-custom">Email Address</label>
+                                    <input type="email" class="form-control-custom" placeholder="you@example.com" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group-custom">
+                                    <label class="form-label-custom">Phone Number</label>
+                                    <input type="tel" class="form-control-custom" placeholder="+1 (212) 000-0000" />
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group-custom">
+                                    <label class="form-label-custom">Investment Interest</label>
+                                    <select class="form-control-custom">
+                                        <option value="">Select a Service</option>
+                                        <option>Equity Portfolio Management</option>
+                                        <option>Real Estate Investment</option>
+                                        <option>Fixed Income & Bonds</option>
+                                        <option>Alternative Investments</option>
+                                        <option>Wealth Planning</option>
+                                        <option>Global Market Access</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group-custom">
+                                    <label class="form-label-custom">Investable Assets</label>
+                                    <select class="form-control-custom">
+                                        <option>$250,000 – $1M</option>
+                                        <option>$1M – $5M</option>
+                                        <option>$5M – $25M</option>
+                                        <option>$25M – $100M</option>
+                                        <option>$100M+</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group-custom">
+                                    <label class="form-label-custom">Your Message</label>
+                                    <textarea class="form-control-custom"
+                                        placeholder="Tell us about your investment goals and timeline..."></textarea>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn-primary-gold w-100"
+                                    style="border:none;cursor:pointer;font-family:'DM Sans',sans-serif;">
+                                    <span>Schedule Consultation</span>
+                                </button>
+                                <p style="font-size:0.75rem;color:var(--muted);margin-top:16px;text-align:center;">
+                                    <i class="fas fa-lock me-1"></i> Your information is protected by 256-bit
+                                    encryption. We never share your data.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="footer-brand">AUREUM Capital</div>
+                    <p class="footer-desc">A premier investment management firm dedicated to growing and protecting your
+                        wealth through disciplined, research-driven strategies.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-6">
+                    <div class="footer-heading">Services</div>
+                    <div class="footer-links">
+                        <a href="#services">Equity Management</a>
+                        <a href="#services">Real Estate</a>
+                        <a href="#services">Fixed Income</a>
+                        <a href="#services">Alternatives</a>
+                        <a href="#services">Wealth Planning</a>
+                        <a href="#services">Global Markets</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-6">
+                    <div class="footer-heading">Company</div>
+                    <div class="footer-links">
+                        <a href="#about">About Us</a>
+                        <a href="#team">Our Team</a>
+                        <a href="#portfolio">Portfolio</a>
+                        <a href="#testimonials">Testimonials</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Press</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer-heading">Stay Informed</div>
+                    <p style="font-size:0.85rem;color:rgba(245,240,232,0.4);margin-bottom:20px;line-height:1.7;">
+                        Subscribe to our monthly market intelligence report and investment insights.</p>
+                    <div class="d-flex gap-0">
+                        <input type="email" class="form-control-custom flex-grow-1" placeholder="Your email address"
+                            style="margin:0;" />
+                        <button class="btn-primary-gold"
+                            style="border:none;cursor:pointer;white-space:nowrap;font-family:'DM Sans',sans-serif;padding:14px 24px;">
+                            <span style="font-size:0.75rem;letter-spacing:1.5px;">Subscribe</span>
+                        </button>
+                    </div>
+                    <p style="font-size:0.7rem;color:rgba(245,240,232,0.2);margin-top:12px;"><i
+                            class="fas fa-info-circle me-1"></i>Past performance is not indicative of future results.
+                        Investments involve risk.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-copy">© 2024 Aureum Capital LLC. All rights reserved. SEC Registered Investment
+                    Advisor.</div>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Disclosures</a>
+                    <a href="#">ADV Form</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="investment_services.js"></script>
+</body>
+
+</html>
